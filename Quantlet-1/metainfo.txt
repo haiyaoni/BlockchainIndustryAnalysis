@@ -1,21 +1,15 @@
-Name of Quantlet: 'Quantlet-1'
+name: BlockchainAcrossIndustries
+description: >
+  This Quantlet performs blockchain-based transaction analytics across industries.
+  It loads, cleans, and transforms the dataset (bcn.csv), engineers time-based
+  features, encodes categorical fields, computes descriptive statistics, conducts
+  fraud analysis, and creates two visualizations: order amount distribution and 
+  fraud vs. non-fraud order amount comparison. Results are saved to the /output folder.
 
-Published in: 'Example Quantlet'
-
-Description: 'This is the example quantlet. You see here the coding file named the same way as the "Name of Quantlet" field in this document, 
-              but with the .py extension (could be also .ipynb or .r etc.). This metainfo.txt file is needed to create the README automatically and index through the quantlet.com website. 
-              So your project is searchable there. All the images in the same folder as the metainfo.txt will be attached to the README file automatically (it does not matter how you call it).'
-
-Keywords: 
-  - Quantlet
-  - Metainfo.txt
-  - reproducibility
-  - research
-  - transparency
-
-Author: 'Elizaveta Zinovyeva'
-
-See also: 'Styleguide repo: https://github.com/QuantLet/Styleguide-and-FAQ'
-
-Submitted:  'Elizaveta Zinovyeva 09. Jul 2021, Elizaveta Zinovyeva'
-
+keywords: Blockchain, Smart Contracts, Fraud Detection, Data Analytics, Supply Chain, Visualization, One-Hot Encoding
+author: Haiyao Ni
+submitted: 2025-XX-XX
+language: Python
+input: data/bcn.csv
+output: output/order_amount_distribution.png, output/fraud_vs_nonfraud_order_amount.png
+quantlet: BlockchainAcrossIndustries
