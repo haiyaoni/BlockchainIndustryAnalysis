@@ -21,7 +21,7 @@ print("\n\n")
 # =====================================================
 # 1. Load the raw dataset
 # =====================================================
-df = pd.read_csv("../data/bcn.csv")
+df = pd.read_csv("bcn.csv")
 
 
 print("\n\n")
@@ -67,7 +67,7 @@ print(df.head())
 # =====================================================
 
 # Reload dataset (your original code did this again — I keep it exactly the same)
-df = pd.read_csv("../data/bcn.csv")
+df = pd.read_csv("bcn.csv")
 
 
 # Convert Timestamp → datetime format
@@ -96,7 +96,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
 # Reload dataset again (kept exactly as your original code)
-df = pd.read_csv("../data/bcn.csv")
+df = pd.read_csv("bcn.csv")
 
 
 # Columns that should be converted into dummy variables
@@ -169,7 +169,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 
 print("\n=== 1. Load Dataset ===\n")
-df = pd.read_csv("../data/bcn.csv")
+df = pd.read_csv("bcn.csv")
 
 print(df.head())
 print("\nMissing values:\n", df.isna().sum())
